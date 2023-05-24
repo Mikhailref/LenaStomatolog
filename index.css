@@ -221,3 +221,78 @@ i{
 }
 
 
+/* Accessibility Panel */
+#accessibility-panel {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 999;
+}
+
+#toggle-panel-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#settings {
+    display: none;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    max-width: 300px;
+}
+
+#settings.show {
+    display: block;
+}
+
+#settings h3 {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.setting {
+    margin-bottom: 15px;
+}
+
+.setting label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.setting select {
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+}
+
+/* Light mode */
+.light-mode {
+    background-color: #f5f5f5;
+    color: #000;
+}
+
+/* Dark mode */
+.dark-mode {
+    background-color: #222;
+    color: #0d0d0d;
+}
+
+
+/* High contrast */
+.high-contrast {
+    filter: invert(100%) hue-rotate(180deg);
+}
+
+
